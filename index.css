@@ -1,0 +1,34 @@
+.flex-container {
+    width: 70%;
+   background-color:rgb(15, 15, 77);
+    margin: auto;
+   display: flex;
+    border: 20px solid beige;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.box {
+    width: 200px;
+   height: 200px;
+    background-color: beige;
+    margin: 40px;
+    padding: 10px;
+      
+}
+ 
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#img1 {
+   width: 200px;
+   height: 200px;
+   transition: 1s;
+}
+
+#img1:hover {
+     transform: scale(1.1);
+     filter: grayscale(80%);
+}
